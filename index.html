@@ -1295,21 +1295,61 @@
           justify-content: center;
         }
         .floating-dock {
-          width: 90%;
-          padding: 8px 15px;
+          width: 95%;
+          padding: 8px 10px;
+          bottom: 20px;
         }
         .dock-inner {
-          gap: 15px;
+          gap: 10px;
+          width: 100%;
+          justify-content: space-around;
         }
         .dock-inner a {
-          font-size: 11px;
+          font-size: 10px;
         }
         .about-link, .skills-link, .portfolio-link {
-          padding: 8px 12px;
+          padding: 8px 10px;
+        }
+        .contact-btn {
+          padding: 10px 15px;
+          font-size: 0.8rem;
+        }
+        .nominee-sidebar {
+          display: none; /* Hide sidebar on mobile to save space */
+        }
+        .hero-section {
+          padding: 80px 5% 40px 5%;
+        }
+        .reveal-text {
+          font-size: 24px;
+        }
+        .reveal-container {
+          padding: 80px 20px;
+        }
+        .card {
+          padding: 30px 20px;
+          border-radius: 20px;
+        }
+        .card h1 {
+          font-size: 1.8rem;
+        }
+        .footer-brand h2 {
+          font-size: 2rem;
         }
       }
 
-      
+      /* Additional Mobile Optimizations */
+      @media (max-width: 380px) {
+        .main-title-row h1 {
+          font-size: 22vw;
+        }
+        .dock-inner {
+          gap: 5px;
+        }
+        .dock-inner a {
+          font-size: 9px;
+        }
+      }
     </style>
   </head>
 
